@@ -16,3 +16,11 @@ After comparing the performance of the four algorithms, we found that linear reg
 7. **Aggregate** - The Aggregate Node in IBM SPSS Modeler is a data transformation node that allows you to group and summarize data based on one or more fields. This node is useful when you need to aggregate data at a higher level, such as summarizing sales data by product or by region.
 8. **Select** - The Select Node in IBM SPSS Modeler is a data transformation node that allows you to select and filter specific fields from your data. This node is useful when you need to reduce the number of fields in your data or focus on a specific subset of fields.
 
+##Python Files Discription
+in the models_accurecy Python file, we import the necessary libraries and load your data. Then we split the data into training and testing sets.
+
+Next, we create four different models - linear regression, neural network, XGBoost, and random forest. then fit each model to training data and evaluate its accuracy using the mean squared error or another appropriate metric.
+
+After evaluating the accuracy of each model, you would select the one with the highest accuracy. In this case, you mentioned that the linear regression model had the highest accuracy of 95%.
+
+In the linear_regrassion Python file, we import the linear regression model from scikit-learn and load test data. Then we apply the predict method to the test data using the linear regression model to predict the student test scores. Finally,output the predicted scores and possibly evaluate the accuracy of the model using a metric such as mean squared error.

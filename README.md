@@ -6,4 +6,5 @@ We have used four different machine learning algorithms in this project: linear 
 
 After comparing the performance of the four algorithms, we found that linear regression achieved the highest accuracy, with an accuracy of 95%. The other algorithms also performed well, with neural network achieving an accuracy of 92%, XGBoost achieving an accuracy of 93%, and random forest achieving an accuracy of 94%.
 
-<b>Node Explanatiion</b>
+<b>Node Explanatiion:-</b>
+1. **Data Asset Node** - used to import, manage, and prepare data for analysis. This node allows you to connect to various data sources such as databases, spreadsheets, and text files, and perform various data manipulation tasks such as filtering, merging, aggregating, and transforming data.
